@@ -117,12 +117,12 @@ const workSlides = {
 const WorkSlider = () => {
   return (
     <Swiper
-      spaceBetween={10}
+      spaceBetween={15}
       pagination={{
         clickable: true,
       }}
       modules={[Pagination]}
-      className="h-[280px] sm:h-[480px]"
+      className="h-[430px] sm:h-[620px]"
     >
       {workSlides.slides.map((slide, i) => (
         <SwiperSlide key={i}>
