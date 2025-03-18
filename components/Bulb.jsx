@@ -6,7 +6,7 @@ const Bulb = () => {
       <Image
         src="/bulb.png"
         alt="bulb"
-        width={260}
+        width={200}
         height={200}
         className="w-full h-full"
       />
