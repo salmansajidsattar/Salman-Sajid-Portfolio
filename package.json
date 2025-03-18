@@ -33,7 +33,6 @@
     "3d-website",
     "particle-effect"
   ],
-  },
   "scripts": {
     "dev": "next dev",
     "build": "next build || true",
