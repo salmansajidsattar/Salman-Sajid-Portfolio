@@ -1,17 +1,7 @@
 /** @type {import('next').NextConfig} */
-// const nextConfig = {
-//   reactStrictMode: true,
-//   swcMinify: true,
-// };
-module.exports = {
+const nextConfig = {
   reactStrictMode: true,
-  experimental: {
-    optimizeCss: true,
-    optimizeFonts: true,
-  },
-  netlify: {
-    excludeStaticForms: true, // Disable Netlify Forms processing
-  },
+  swcMinify: true,
 };
 
 module.exports = nextConfig;
